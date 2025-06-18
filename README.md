@@ -57,19 +57,22 @@ A API realiza operações básicas de autenticação, criação e listagem de us
   cd virteai-api
 ```
 2. Configure o application.properties (exemplo):
+```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/virteai
 spring.datasource.username=root
 spring.datasource.password=suasenha
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 server.port=8080
-
+````
+```bash
 3. Compile e rode:
 ./mvnw spring-boot:run
-
-  4.Acesse no navegador ou Insomnia/Postman:
-http://localhost:8080/
-
+````
+```bash
+4.Acesse no navegador ou Insomnia/Postman:
+  http://localhost:8080/
+```
 ## 👨‍💻 Equipe
 
 | Nome               | Função                                  |
