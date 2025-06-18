@@ -70,11 +70,12 @@ server.port=8080
 4.Acesse no navegador ou Insomnia/Postman:
 http://localhost:8080/
 
+## 👨‍💻 Equipe
 
-👥 Equipe do Projeto
-Nome	Função
-Yuri Onishi	Desenvolvedor Back-End e VR 3D
-Lyvia Fernandes	Front-End (React)
-Ana Picoli	Web Designer
-Ester Brasil	Banco de Dados
-Valdir Pereira	Marketing
+| Nome               | Função                                  |
+|--------------------|------------------------------------------|
+| **Lyvia Fernandes** | Desenvolvedora Front-End                 |
+| **Ana Picoli**      | Web Designer                             |
+| **Yuri Onishi**     | Desenvolvedor de IA e Back-End |
+| **Ester Brasil**    | Desenvolvedora de Banco de Dados         |
+| **Valdir Pereira**  | Marketing e Divulgação                   |
