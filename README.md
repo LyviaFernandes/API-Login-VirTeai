@@ -67,7 +67,7 @@ server.port=8080
 3. Compile e rode:
 ./mvnw spring-boot:run
 
-4.Acesse no navegador ou Insomnia/Postman:
+  4.Acesse no navegador ou Insomnia/Postman:
 http://localhost:8080/
 
 ## 👨‍💻 Equipe
