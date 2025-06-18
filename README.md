@@ -53,5 +53,28 @@ A API realiza operações básicas de autenticação, criação e listagem de us
 1. Clone o projeto:
 
 ```bash
-git clone https://github.com/seu-usuario/virteai-api.git
-cd virteai-api
+  git clone https://github.com/seu-usuario/virteai-api.git
+  cd virteai-api
+```
+2. Configure o application.properties (exemplo):
+spring.datasource.url=jdbc:mysql://localhost:3306/virteai
+spring.datasource.username=root
+spring.datasource.password=suasenha
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+server.port=8080
+
+3. Compile e rode:
+./mvnw spring-boot:run
+
+4.Acesse no navegador ou Insomnia/Postman:
+http://localhost:8080/
+
+
+👥 Equipe do Projeto
+Nome	Função
+Yuri Onishi	Desenvolvedor Back-End e VR 3D
+Lyvia Fernandes	Front-End (React)
+Ana Picoli	Web Designer
+Ester Brasil	Banco de Dados
+Valdir Pereira	Marketing
